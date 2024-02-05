@@ -1,0 +1,18 @@
+.botton {
+    color: rgb(48, 25, 29);
+    border: 2px solid;
+    padding: 8px 8px 8px 8px;
+    border-radius: 15px;
+    background-color: yellowgreen;
+}
+.text-uppercase {
+    text-transform: uppercase;
+    color:#1a7676;
+}
+a {
+    text-decoration: none;
+}
+
+input {
+    margin-top: 4px;
+}

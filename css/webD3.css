@@ -96,3 +96,153 @@ justify-content: space-between;
 
 
 }
+
+.Pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+  }
+  .heading-text{
+    margin-bottom: 50px;
+  }
+  .price {
+    display: flex;
+    align-items: baseline;
+  }
+  .pricing-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .pricing-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0px;
+  }
+  
+  .pricing-box {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    height: 400px;
+  }
+  
+  .per-month-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #01b9f3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .S {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: px;
+  }
+  .price-value {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .box-alignment{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .box-content-alignment {
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  .contents {
+    margin-left: 20px;
+  }
+  .top {
+    margin-bottom: 69px;
+  }
+  .list-alignment {
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    gap: 2px;
+  }
+
+  .text-h1 {
+    color: #01b9f3;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+  }
+
+  .text-param {
+    color: black;
+    text-align: center;
+  }
+
+  .member-text{
+    width: 1100px;
+    margin: auto;
+  }
+
+  .member-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    margin: auto;
+
+    background-color: #ffffff;
+
+    padding: 1px 40px 40px;
+    box-shadow: 0px 0px 5px 0.5px;
+    border-radius: 5px;
+  }
+
+  /* start-section-member */
+
+.member{
+  background-color: #85778e;
+  padding-top: 1px 40px 40px;
+}
+
+.member-text{
+  width: 1100px;
+  margin: auto;
+}
+
+table{
+  border: 1px solid #1B1B42;
+  border-collapse: collapse;
+  width: 80%;
+
+  margin: auto;
+
+  border-radius: 5px;
+
+}
+
+th,td {
+  border: 1px solid #1B1B42;
+
+}
+
+th {
+
+}
+
+td {
+
+}
