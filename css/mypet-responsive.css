@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    background-color: #26707E;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+
+
+    /* background-color: rgb(142, 103, 75); */
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    color: #ffffff;
+}
+
+nav ul li {
+    margin-right: 1.85rem;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.logo img {
+    margin-right: 0.5rem;
+}
+
+/* -----------------responsive navbar---------------- */
+
+@media screen and (max-width:480px) {
+    nav{
+        flex-direction:column;
+        align-items: center;
+        
+    }
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+     }
+}
+
+
+
+
+/* end header  */
+
+/* mypet-content */
+
+.mypet-content {
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.box {
+    /* background-color: #A1D7E3; */
+    margin: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0);
+
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.text-content {
+    padding: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .mypet-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+}
+
+@media screen and (max-width:480px) {
+    .mypet-content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+}
+
+.hero {
+    background-image: url(https://a-z-animals.com/media/2022/11/iStock-1356534972-1024x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-hero{
+    margin: 0%;
+    color: #000000;
+    font-size: 60px;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    background-color: #ffffff;
+    height: 100px;
+    margin: auto;
+    width: 80%;
+    
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #26707E;
+    text-align: center;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: #26707E;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
