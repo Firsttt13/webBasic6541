@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&display=swap");
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.A4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 595px;
+  height: 842px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.alingment {
+  padding-bottom: 50px;
+}
+.name {
+  font-size: 24px;
+}
+.header {
+  display: flex;
+  width: 595px;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.left-info {
+  color: white;
+  margin-left: 20px;
+}
+.left-bg {
+  background-color: #27282c;
+  width: 421px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.resume-text {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.right-bg {
+  background-color: #101010;
+  width: 174px;
+}
+.about-me {
+  background-color: #101010;
+  width: 100px;
+  height: 20px;
+  padding: 5px 10px 5px 80px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.self-info {
+  display: flex;
+  flex-direction: column;
+  text-transform: none;
+  color: white;
+  font-size: 10px;
+  margin-left: 20px;
+  gap: 5px;
+  margin-top: 0px;
+}
+.self-info-pos {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-img {
+  position: absolute;
+  top: 120px;
+  left: 53%;
+}
+@media screen and (max-width: 1000px) {
+  .profile-img {
+    left: 54%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .profile-img {
+    left: 54%;
+  }
+}
+.info-text {
+  margin: 0;
+}
+.info-contents {
+  display: flex;
+}
+.left {
+  width: 350px;
+  margin-left: 25px;
+}
+.right {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 220px;
+  
+}
+.header-text-left {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.normal-text-left {
+  font-size: 12px;
+}
+.skill-list {
+  display: inline;
+}
+.header-text-right {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+}
+.info-alignment {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 10px;
+}
+.contact-text {
+  margin: 0;
+}
+.contact-alignment {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.education {
+  background-color: #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
+}
+.border-left {
+  border-left: 1px solid;
+  padding-top: 20px;
+}
+.highschool {
+  margin-bottom: 0px;
+}
+.border-left,
+.highschool {
+  margin-left: 20px;
+}
+.edu-text {
+  margin-left: 10px;
+}
+
+div.edu-text p {
+  margin: 0;
+}
+div.myskill p {
+  margin: 0;
+}
+.myskill {
+  margin-left: 20px;
+}
+.margin-adjust {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer-right-text {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+div div p {
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
